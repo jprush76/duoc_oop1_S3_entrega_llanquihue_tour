@@ -1,5 +1,6 @@
 package cl.llanquihuetour.app;
 
+import cl.llanquihuetour.exceptions.RutInvalidoException;
 import cl.llanquihuetour.model.Direccion;
 import cl.llanquihuetour.model.Guia;
 import cl.llanquihuetour.model.Persona;
@@ -7,7 +8,7 @@ import cl.llanquihuetour.model.Persona;
 import java.util.ArrayList;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws RutInvalidoException {
 
         Direccion direccion1 = new Direccion("Av. Vespucio", "333", "Las Condes", "R. Metropolitana" );
         Direccion direccion2 = new Direccion("Antonio Varas", "1108", "Puerto Montt", "R. de Los Lagos" );

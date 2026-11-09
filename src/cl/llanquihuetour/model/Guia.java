@@ -1,5 +1,7 @@
 package cl.llanquihuetour.model;
 
+import cl.llanquihuetour.exceptions.RutInvalidoException;
+
 import java.util.ArrayList;
 
 /**
@@ -10,7 +12,7 @@ public class Guia extends Persona {
     private String agencia;
     private ArrayList<String> idiomas;
 
-    public Guia(String rut, String nombre, String email, String telefono, Direccion direccion, String agencia, ArrayList<String> idiomas) {
+    public Guia(String rut, String nombre, String email, String telefono, Direccion direccion, String agencia, ArrayList<String> idiomas) throws RutInvalidoException {
         super(rut, nombre, email, telefono, direccion);
         this.agencia = agencia;
         this.idiomas = idiomas;
