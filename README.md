@@ -13,7 +13,7 @@
 ## 📘 Descripción general del sistema
 Este proyecto corresponde a la Entrega Sumativa Semana 3 de la asignatura *Desarrollo Orientado a Objetos I*. Se trata de una estructura básica de paquetes y clases para la **Agencia de turismo Llanquihue Tour**, desarrollado en Java, cuyo objetivo es modelar algunas entidades representativas de un dominio real, aplicando los principios de encapsulamiento, composición y herencia.
 
-El proyecto fue desarrollado a partir de un caso contextualizado, abordando problemáticas reales y proponiendo una solución estructurada, modular y reutilizable.
+El proyecto fue desarrollado a partir de un caso contextualizado y proponiendo una solución básica estructurada, modular y reutilizable.
 
 ---
 
@@ -23,7 +23,8 @@ El proyecto fue desarrollado a partir de un caso contextualizado, abordando prob
 📁 src/
 └── cl.llanquihuetour/
         ├── app/         # Clase principal con el método main
-        └── model/       # Clases de dominio (Persona, Cliente, Empleado, Operador y Dirección)
+        ├── exceptions/  # Excepciones (Rut)
+        └── model/       # Clases de dominio (Persona, Guia y Dirección)
 
 ````
 
